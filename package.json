@@ -16,7 +16,8 @@
     "redux": "^4.0.5"
   },
   "engines": {
-    "node": "12.16.x"
+    "npm": "16.13.4",
+    "node": "12.14.1"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
